@@ -21,32 +21,36 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container header__container">
-        <img class="header__logo" src="./img/logo.png" alt="" />
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__item">
-              <a class="header__link" href="">About us</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="">Program</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="">Speakers</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="">Price</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="">Reviews</a>
-            </li>
-          </ul>
-          <button class="header__button" type="button">Contacts</button>
-        </nav>
-      </div>
-    </header>
-    <main>
+    <div class="background__wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <a href="" class="header__link__logo">
+            <svg class="header__icons__logo" width="158" height="70">
+              <use href="./img/icons/symbol-defs.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="">About us</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="">Program</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="">Speakers</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="">Price</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="">Reviews</a>
+              </li>
+            </ul>
+            <button class="header__button" type="button">Contacts</button>
+          </nav>
+        </div>
+      </header>
       <!-- секция hero -->
       <section class="hero">
         <div class="container">
@@ -55,81 +59,110 @@
           <button class="hero__button" type="button">Register</button>
           <ul class="hero__icon">
             <li class="hero__info">
-              <img src="./img/hero/twitter.png" alt="" />
+              <a href="" class="hero__link">
+                <svg class="hero__icons" width="16" height="16">
+                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
             <li class="hero__info">
-              <img src="./img/hero/instagram.png" alt="" />
+              <a href="" class="hero__link">
+                <svg class="hero__icons" width="16" height="16">
+                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
             <li class="hero__info">
-              <img src="./img/hero/facebook.png" alt="" />
+              <a href="" class="hero__link">
+                <svg class="hero__icons" width="16" height="16">
+                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </section>
-      <!-- about us -->
-      <section class="about">
-        <div class="container about__container">
-          <img
-            class="about__foto"
-            src="./img/about/man-baker-sprinkles-donuts-with-colorful-sweets.webp"
-            alt=""
-          />
-          <div>
-            <h2 class="about__title">About us</h2>
-            <p class="about__text">
-              Oh My Donut is the shop which adores tasty deserts and spend hours
-              to create sophisticated donuts which will save the world!<br />
+    </div>
+    <!-- about us -->
+    <section class="about">
+      <div class="container about__container">
+        <img
+          class="about__foto"
+          src="./img/about/man-baker-sprinkles-donuts-with-colorful-sweets.webp"
+          alt=""
+        />
+        <div>
+          <h2 class="about__title">About us</h2>
+          <p class="about__text">
+            Oh My Donut is the shop which adores tasty deserts and spend hours
+            to create sophisticated donuts which will save the world!<br />
 
-              Eva has been baking since she was six years old and over the last
-              49 years, she has created hundreds of cakes for weddings and has
-              baked for many celebrities. Eva and our shop have received
-              multiple awards & recognition for excellence. <br />
+            Eva has been baking since she was six years old and over the last 49
+            years, she has created hundreds of cakes for weddings and has baked
+            for many celebrities. Eva and our shop have received multiple awards
+            & recognition for excellence. <br />
 
-              We are going to teach you how to cook with passion and sparkles in
-              your eyes! We love what we do and believe you will enjoy our
-              cooking atmosphere!
-            </p>
-          </div>
+            We are going to teach you how to cook with passion and sparkles in
+            your eyes! We love what we do and believe you will enjoy our cooking
+            atmosphere!
+          </p>
         </div>
-      </section>
-      <!-- Program -->
-      <section class="program">
-        <div class="container program__container" >
-          <div class="program__box">
-            <h2 class="program__title">Program</h2>
+      </div>
+    </section>
+    <!-- Program -->
+    <section class="program">
+      <div class="container program__container">
+        <div class="program__box">
+          <h2 class="program__title">Program</h2>
           <p class="program__text">
             Indulge in this immersive sweet treat experience with The Chef Donut
             Queen in her New York donut shop!
           </p>
           <ul class="program__list">
             <li class="program__item">
-              <img class="program__icon" src="./img/icоn.webp" alt="icon" />
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
               <p class="program__descr">A stand up history of donuts</p>
             </li>
             <li class="program__item">
-              <img class="program__icon" src="./img/icоn.webp" alt="icon" />
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
               <p class="program__descr">Make 3 donut flavors of your choice</p>
             </li>
             <li class="program__item">
-              <img class="program__icon" src="./img/icоn.webp" alt="icon" />
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
               <p class="program__descr">Enjoy all-you-can-eat donuts</p>
             </li>
             <li class="program__item">
-              <img class="program__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="program__descr">Cocktail pairings and coffee included</p>
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
+              <p class="program__descr">
+                Cocktail pairings and coffee included
+              </p>
             </li>
             <li class="program__item">
-              <img class="program__icon" src="./img/icоn.webp" alt="icon" />
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
               <p class="program__descr">
                 Photoshoot by professional photographer
               </p>
             </li>
             <li class="program__item">
-              <img class="program__icon" src="./img/icоn.webp" alt="icon" />
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
               <p class="program__descr">Secret receipt of cooking from Eva</p>
             </li>
             <li class="program__item">
-              <img  class="program__icon" src="./img/icоn.webp" alt="icon" />
+              <svg class="program__icons" width="24" height="24">
+                <use href="./img/icons/symbol-defs.svg#icon-icon"></use>
+              </svg>
               <p class="program__descr">
                 All products are included in the price
               </p>
@@ -140,105 +173,98 @@
             unforgettable time and will become a real professional in donuts
             cooking!
           </p>
-          </div>
-          <!-- <div class="program__con"> -->
-            <ul class="program__elements">
-            <li class="program__element">
-              <img
-                class="program__picture"
-                src="./img/program/bg.png"
-                alt="#"
-              />
-              <h3 class="program__subtitle">Type of the event</h3>
-              <p class="program__info">Cooking classes</p>
-            </li>
-            <li class="program__element">
-              <img
-                class="program__picture"
-                src="./img/program/bg (2).png"
-                alt="#"
-              />
-              <h3 class="program__subtitle">Number of guests</h3>
-              <p class="program__info">1 to 20</p>
-            </li>
-            <li class="program__element">
-              <img
-                class="program__picture"
-                src="./img/program/bg (3).png"
-                alt="#"
-              />
-              <h3 class="program__subtitle">Type of the event</h3>
-              <p class="program__info">18:30 (2.5 hours)</p>
-            </li>
-            <li class="program__element">
-              <img
-                class="program__picture"
-                src="./img/program/bg (4).png"
-                alt="#"
-              />
-              <h3 class="program__subtitle">The host speaks</h3>
-              <p class="program__info">English, French</p>
-            </li>
-          </ul>
-          <!-- </div> -->
-          
         </div>
-      </section>
-      <!-- Speakers -->
-      <section class="speakers">
-        <div class="container">
-          <h2 class="speakers__title">Speakers</h2>
-          <ul class="speakers__list">
-            <li class="speakers__item">
-              <img
-                class="speakers__img"
-                src="./img/speakers/front-view-female-confectioner-in-white-wear-holding-delicious-pastries-smiling-on-pink-wall-confectionery-sweet-pastry-job-work-removebg-preview 1.png"
-                alt="#"
-              />
-              <h3 class="speakers__subtitle">Molly Rivera</h3>
-              <p class="speakers__text">
-                Pastry chef, master chocolatier of Spain,
-              </p>
-            </li>
-            <li class="speakers__item">
-              <img
-                class="speakers__img"
-                src="./img/speakers/professional-smiling-confectioner-wrapping-a-box-with-cookies-removebg-preview 1.png"
-                alt="#"
-              />
-              <h3 class="speakers__subtitle">Sophia Clark</h3>
-              <p class="speakers__text">Сulinary school pastry chef</p>
-            </li>
-            <li class="speakers__item">
-              <img
-                class="speakers__img"
-                src="./img/speakers/portrait-of-young-beautiful-woman-with-sweets-over-blue-wall-removebg-preview 1.png"
-                alt=""
-              />
-              <h3 class="speakers__subtitle">Isabella Taylor</h3>
-              <p class="speakers__text">
-                Сonsultant in the art of confectionery
-              </p>
-            </li>
-            <li class="speakers__item">
-              <img
-                class="speakers__img"
-                src="./img/speakers/lady-smiles-at-the-camera-confectioner-cooks-in-the-kitchen-cook-is-resting-removebg-preview 1.png"
-                alt=""
-              />
-              <h3 class="speakers__subtitle">Evelyn Miller</h3>
-              <p class="speakers__text">Master- chocolatier in Spain</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Price -->
-      <section class="price">
-        <div class="container">
-          <h2 class="price__title">Price</h2>
-          <div class="price__heroo"> 
-          <div class="price__container"> 
-            <div class="ff"> 
+        <!-- <div class="program__con"> -->
+        <ul class="program__elements">
+          <li class="program__element">
+            <img class="program__picture" src="./img/program/bg.webp" alt="#" />
+            <h3 class="program__subtitle">Type of the event</h3>
+            <p class="program__info">Cooking classes</p>
+          </li>
+          <li class="program__element">
+            <img
+              class="program__picture"
+              src="./img/program/bg2.webp"
+              alt="#"
+            />
+            <h3 class="program__subtitle">Number of guests</h3>
+            <p class="program__info">1 to 20</p>
+          </li>
+          <li class="program__element">
+            <img
+              class="program__picture"
+              src="./img/program/bg3.webp"
+              alt="#"
+            />
+            <h3 class="program__subtitle">Type of the event</h3>
+            <p class="program__info">18:30 (2.5 hours)</p>
+          </li>
+          <li class="program__element">
+            <img
+              class="program__picture"
+              src="./img/program/bg4.webp"
+              alt="#"
+            />
+            <h3 class="program__subtitle">The host speaks</h3>
+            <p class="program__info">English, French</p>
+          </li>
+        </ul>
+        <!-- </div> -->
+      </div>
+    </section>
+    <!-- Speakers -->
+    <section class="speakers">
+      <div class="container">
+        <h2 class="speakers__title">Speakers</h2>
+        <ul class="speakers__list">
+          <li class="speakers__item">
+            <img
+              class="speakers__img"
+              src="./img/speakers/pastry-chef.webp"
+              alt="#"
+            />
+            <h3 class="speakers__subtitle">Molly Rivera</h3>
+            <p class="speakers__text">
+              Pastry chef, master chocolatier of Spain,
+            </p>
+          </li>
+          <li class="speakers__item">
+            <img
+              class="speakers__img"
+              src="./img/speakers/culinary-chef.webp"
+              alt="#"
+            />
+            <h3 class="speakers__subtitle">Sophia Clark</h3>
+            <p class="speakers__text">Сulinary school pastry chef</p>
+          </li>
+          <li class="speakers__item">
+            <img
+              class="speakers__img"
+              src="./img/speakers/consultant.webp"
+              alt=""
+            />
+            <h3 class="speakers__subtitle">Isabella Taylor</h3>
+            <p class="speakers__text">Сonsultant in the art of confectionery</p>
+          </li>
+          <li class="speakers__item">
+            <img
+              class="speakers__img"
+              src="./img/speakers/master-chocolatier.webp"
+              alt=""
+            />
+            <h3 class="speakers__subtitle">Evelyn Miller</h3>
+            <p class="speakers__text">Master- chocolatier in Spain</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Price -->
+    <section class="price">
+      <div class="container">
+        <h2 class="price__title">Price</h2>
+        <div class="price__heroo">
+          <div class="price__container">
+            <div class="ff">
               <h3 class="price__subtitle">Easy start</h3>
               <ul class="price__list">
                 <li class="price__item">
@@ -247,11 +273,15 @@
                 </li>
                 <li class="price__item">
                   <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-                  <p class="price__word">preparation of liquid caramel for stuffing</p>
+                  <p class="price__word">
+                    preparation of liquid caramel for stuffing
+                  </p>
                 </li>
                 <li class="price__item">
                   <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-                  <p class="price__word">preparation of raspberry and strawberry filling</p>
+                  <p class="price__word">
+                    preparation of raspberry and strawberry filling
+                  </p>
                 </li>
                 <li class="price__item">
                   <img class="price__icon" src="./img/icоn.webp" alt="icon" />
@@ -259,158 +289,157 @@
                 </li>
               </ul>
             </div>
-          <button class="price__button" type="button">Register</button>
+            <button class="price__button" type="button">Register</button>
+          </div>
+          <div class="price__container">
+            <h3 class="price__subtitle">I want delicious donuts</h3>
+            <ul class="price__features">
+              <li class="price__feature">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__text">features of yeast dough preparation</p>
+              </li>
+              <li class="price__feature">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__text">
+                  preparation of liquid caramel for stuffing
+                </p>
+              </li>
+              <li class="prise__feature">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__text">
+                  preparation of raspberry and strawberry filling
+                </p>
+              </li>
+              <li class="price__feature">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__text">melt chocolate for decoration</p>
+              </li>
+              <li class="price__feature">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__text">fry and glaze donuts</p>
+              </li>
+              <li class="price__feature">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__text">
+                  donut decoration. painting and various techniques
+                </p>
+              </li>
+            </ul>
+            <button class="price__button" type="button">Register</button>
+          </div>
+          <div class="price__container">
+            <h3 class="price__subtitle">Premium</h3>
+            <ul class="price__premiums">
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">features of yeast dough preparation</p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">
+                  preparation of liquid caramel for stuffing
+                </p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">
+                  preparation of raspberry and strawberry filling
+                </p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">melt chocolate for decoration</p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">fry and glaze donuts</p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">
+                  donut decoration. painting and various techniques
+                </p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">
+                  After party and donut tasting with speakers
+                </p>
+              </li>
+              <li class="price__premium">
+                <img class="price__icon" src="./img/icоn.webp" alt="icon" />
+                <p class="price__info">
+                  2 private lessons with one of the speakers
+                </p>
+              </li>
+            </ul>
+            <button class="price__button" type="button">Register</button>
+          </div>
         </div>
-          <div class="price__container"> 
-          <h3 class="price__subtitle">I want delicious donuts</h3>
-          <ul class="price__features">
-            <li class="price__feature">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__text">features of yeast dough preparation</p>
-            </li>
-            <li class="price__feature">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__text">
-                preparation of liquid caramel for stuffing
-              </p>
-            </li>
-            <li class="prise__feature">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__text">
-                preparation of raspberry and strawberry filling
-              </p>
-            </li>
-            <li class="price__feature">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__text">melt chocolate for decoration</p>
-            </li>
-            <li class="price__feature">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__text">fry and glaze donuts</p>
-            </li>
-            <li class="price__feature">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__text">
-                donut decoration. painting and various techniques
-              </p>
-            </li>
-          </ul>
-          <button class="price__button" type="button">Register</button>
-        </div>
-        <div class="price__container"> 
-          <h3 class="price__subtitle">Premium</h3>
-          <ul class="price__premiums">
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">features of yeast dough preparation</p>
-            </li>
-            <li class="price__premium">
-              <img  class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">
-                preparation of liquid caramel for stuffing
-              </p>
-            </li>
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">
-                preparation of raspberry and strawberry filling
-              </p>
-            </li>
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">melt chocolate for decoration</p>
-            </li>
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">fry and glaze donuts</p>
-            </li>
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">
-                donut decoration. painting and various techniques
-              </p>
-            </li>
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">
-                After party and donut tasting with speakers
-              </p>
-            </li>
-            <li class="price__premium">
-              <img class="price__icon" src="./img/icоn.webp" alt="icon" />
-              <p class="price__info">
-                2 private lessons with one of the speakers
-              </p>
-            </li>
-          </ul>
-        <button class="price__button" type="button">Register</button>
       </div>
-    </div>
-        </div>
-      </section>
-      <!-- Reviews -->
-      <section class="reviews">
-        <div class="container">
-          <h2 class="reviews__title">Reviews</h2>
-          <ul class="reviews__list">
-            <li class="reviews__item">
-              <img
-                class="reviews__img"
-                src="./img/reviews/closeup-shot-of-a-handsome-male-smiling.webp"
-                alt="smiling man"
-              />
-              <img
-                class="reviews__grade"
-                src="./img/reviews/rate.webp"
-                alt="rate"
-              />
-              <p class="reviews__name">John</p>
-            </li>
-            <li class="reviews__item">
-              <img
-                class="reviews__photo"
-                src="./img/reviews/young-businessman.webp"
-                alt="businessman"
-              />
-              <img
-                class="reviews__rate"
-                src="./img/reviews/ratefive.webp"
-                alt="rate"
-              />
-              <p class="reviews__name">Will</p>
-            </li>
-            <li class="reviews__item">
-              <img
-                class="reviews__capture"
-                src="./img/reviews/positive-woman.webp"
-                alt="woman"
-              />
-              <img
-                class="reviews__rate"
-                src="./img/reviews/ratefive.webp"
-                alt="rate"
-              />
-              <p class="reviews__name">Elisabeth</p>
-            </li>
-          </ul>
-          <p class="reviews__text">
-            Last time I have visited a cooking course by Eva I was impressed
-            with the way she explained everything to people. You can be sure you
-            will manage to cook a delicious dish even if it is your first time
-            in the kitchen! Thank you so much for the masterclass! Looking
-            forward to the next one and highly recommend it to everyone!
-          </p>
-        </div>
-      </section>
-      <!-- Registration -->
-      <section class="registration">
-        <div class="container"></div>
-      </section>
-      <!-- Contact -->
-      <section class="contact">
-        <div class="container"></div>
-      </section>
-    </main>
+    </section>
+    <!-- Reviews -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Reviews</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <img
+              class="reviews__img"
+              src="./img/reviews/closeup-shot-of-a-handsome-male-smiling.webp"
+              alt="smiling man"
+            />
+            <img
+              class="reviews__grade"
+              src="./img/reviews/rate.webp"
+              alt="rate"
+            />
+            <p class="reviews__name">John</p>
+          </li>
+          <li class="reviews__item">
+            <img
+              class="reviews__photo"
+              src="./img/reviews/young-businessman.webp"
+              alt="businessman"
+            />
+            <img
+              class="reviews__rate"
+              src="./img/reviews/ratefive.webp"
+              alt="rate"
+            />
+            <p class="reviews__name">Will</p>
+          </li>
+          <li class="reviews__item">
+            <img
+              class="reviews__capture"
+              src="./img/reviews/positive-woman.webp"
+              alt="woman"
+            />
+            <img
+              class="reviews__rate"
+              src="./img/reviews/ratefive.webp"
+              alt="rate"
+            />
+            <p class="reviews__name">Elisabeth</p>
+          </li>
+        </ul>
+        <p class="reviews__text">
+          Last time I have visited a cooking course by Eva I was impressed with
+          the way she explained everything to people. You can be sure you will
+          manage to cook a delicious dish even if it is your first time in the
+          kitchen! Thank you so much for the masterclass! Looking forward to the
+          next one and highly recommend it to everyone!
+        </p>
+      </div>
+    </section>
+    <!-- Registration -->
+    <section class="registration">
+      <div class="container"></div>
+    </section>
+    <!-- Contact -->
+    <section class="contact">
+      <div class="container"></div>
+    </section>
     <footer class="footer">
       <div class="container"></div>
     </footer>
